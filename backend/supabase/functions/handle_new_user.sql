@@ -15,7 +15,7 @@ begin
         , new.raw_user_meta_data ->> 'name'
         , new.raw_user_meta_data ->> 'first_name'
         , new.raw_user_meta_data ->> 'last_name'
-        , new.raw_user_meta_data ->> 'email'
+        , new.email
         );
   return new;
 end;$function$
