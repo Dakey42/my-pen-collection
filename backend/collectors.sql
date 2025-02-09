@@ -5,6 +5,7 @@ CREATE TABLE public.collectors (
 	first_name text DEFAULT ''::text NULL,
 	last_name text DEFAULT ''::text NULL,
 	email text DEFAULT ''::text NULL,
+	plan text DEFAULT 'FREE'::text NULL,
 	CONSTRAINT collectors_pkey PRIMARY KEY (collector_id)
 );
 
